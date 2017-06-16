@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   get "/login", to: 'pages#login'
   get "/signup", to: 'pages#signup'
+  get "/dashboard", to: 'pages#dashboard'
+  get "/home", to: 'pages#home'
 end
